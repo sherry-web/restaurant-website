@@ -161,15 +161,7 @@
                 top: 566px;
             }
 
-            .header-column image{
-                position: absolute;
-                width: 46px;
-                height: 46px;
-                left: 1107px;
-                top: 334px;
-
-            }
-            .header-image{
+            .header-image a{
                 position: absolute;
                 width: 201px;
                 height: 248px;
@@ -178,4 +170,208 @@
                 
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             }
+            .container {
+                display:flex;
+   
 
+
+              }
+                
+                .bike {
+                    flex-basis: 5%;
+                    position: absolute;
+                    width: 46px;
+                    height: 46px;
+                    left: 1107px;
+                    top: 334px;
+                }
+            
+                .bag{
+                    flex-basis: 5%;
+                    position: absolute;
+                    width: 46px;
+                    height: 46px;
+                    left: 1107px;
+                    top: 420px;
+                }
+                .fork {
+                    flex-basis: 5%;
+                    position: absolute;
+                    width: 46px;
+                    height: 46px;
+                    left: 1107px;
+                    top: 506px;
+                    
+                }
+                .text h1{
+                    float :right;
+                    color: #555555;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 31px;
+                    line-height: 40px;
+                    position: flex;
+                    width: 206px;
+                    height: 230px;
+                    left: 1200px;
+                    top: 329px;}
+
+            /**flow2**/
+
+            #download{
+
+                background-position: center;
+                }
+        
+                    .frame{
+                        
+                        min-height: 100vh;
+                        background-image:url(framebg.png);
+                        background-size:contain;
+                        background-position: center;
+                        background-repeat:no-repeat;
+                    }
+                    .mobile-image{
+                            float:left;
+                            width: 5px;
+                            height: 5px;
+                            left: 150px;
+                            top: 876px;
+                    }
+                    .downloadtext h1{
+                    height: 216px;
+                    left: 432px;
+                    right: 627px;
+                    top: 1007px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    color: #333333;
+                    }
+
+                    .downloadtext p{
+                        height: 216px;
+                        left: 433px;
+                        right: 551px;
+                        top: 1136px;
+                        font-family: 'Indie Flower';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 31px;
+                        line-height: 40px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        
+
+                    }
+                    .play{
+    
+                      position: absolute;
+                        width: 224px;
+                        height: 312px;
+                        left: 779px;
+                        top: 1288px;
+                    }
+                     .app{
+    
+                      position: absolute;
+                        width: 224px;
+                        height: 312px;
+                        left: 1056px;
+                        top: 1288px;
+                    }
+           
+   /**flow3**/
+
+   #top{
+
+    background-position: center;
+    }
+
+
+    .centertext h1{
+        position: absolute;
+height: 216px;
+left: 377px;
+right: 387px;
+top: 1732px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 39px;
+line-height: 48px;
+/* or 123% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #333333;
+
+    }
+        .delivered{
+            
+            min-height: 100vh;
+            background-image:none;
+          
+        }
+        .container{
+
+            justify-items: center;
+            display:inline-flex;
+
+        }
+
+        .tacos{
+           position: absolute;
+            height: 285px;
+            left: 146px;
+            right: 1009px;
+            top: 1975px;
+          
+        }
+        .text1{
+            position: absolute;
+width: 115px;
+height: 60px;
+left: 226px;
+top: 2336px;
+        }
+        .wraps{
+            position: absolute;
+            height: 285px;
+            left: 551px;
+            right: 604px;
+            top: 1983px;
+        }
+        .text11{
+            position: absolute;
+            width: 127px;
+            height: 60px;
+            left: 634px;
+            top: 2332px;
+        }
+
+        .pizza{
+            position: absolute;
+            height: 285px;
+            left: 956px;
+            right: 199px;
+            top: 1983px;
+            
+
+        }
+        .text111{
+            position: absolute;
+            height: 40px;
+            left: 1052px;
+            right: 285px;
+            top: 2342px;
+            
+        }
+        
